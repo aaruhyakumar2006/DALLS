@@ -18,8 +18,8 @@ function readLogoB64(filename: string): string {
   }
 }
 
-const LOGO_HORIZONTAL = readLogoB64('dalls_horizontal.png');
-const LOGO_ICON = readLogoB64('dalls_icon.png');
+const LOGO_HORIZONTAL = readLogoB64('logo_white_horizontal.png');
+const LOGO_ICON = readLogoB64('logo_white_horizontal.png');
 
 function emailTemplate({ name, email, message }: { name: string; email: string; message: string }) {
   return `<!DOCTYPE html>

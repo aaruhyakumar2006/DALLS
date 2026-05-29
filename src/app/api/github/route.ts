@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-const USERNAME = 'aaruhya06';
+const USERNAME = 'aaruhyakumar2006';
 const GH_TOKEN  = process.env.GITHUB_TOKEN;
 const GH_HEADERS: Record<string, string> = {
   'User-Agent': 'dalls-portfolio',

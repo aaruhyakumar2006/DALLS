@@ -110,7 +110,7 @@ const jsonLd = {
     'MySQL', 'Git', 'Android Studio', 'UI/UX', 'Machine Learning',
   ],
   sameAs: [
-    'https://github.com/aaruhya06',
+    'https://github.com/aaruhyakumar2006',
     'https://linkedin.com/in/aaruhya-kumar',
   ],
   contactPoint: {

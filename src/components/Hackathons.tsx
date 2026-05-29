@@ -2,7 +2,7 @@
 
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { Trophy, Medal, Star, Zap } from 'lucide-react';
+import { Trophy, Medal } from 'lucide-react';
 
 const EASE = [0.22, 1, 0.36, 1] as const;
 
@@ -38,22 +38,6 @@ const HACKATHONS = [
     accent: 'rgba(255,255,255,0.75)',
     accentDim: 'rgba(255,255,255,0.09)',
     badge: 'PODIUM',
-  },
-  {
-    id: 'pe',
-    rank: '1ST',
-    rankNum: 1,
-    totalTeams: null,
-    name: 'Highest Marks in Physical Education',
-    year: '2024',
-    type: 'Academic · Class XII',
-    description:
-      'Awarded highest marks in Physical Education during Class XII at RMK Residential School. Recognized for athletic excellence and commitment to sports.',
-    stack: ['Sports', 'Badminton', 'Athletics'],
-    icon: Star,
-    accent: 'rgba(255,255,255,0.65)',
-    accentDim: 'rgba(255,255,255,0.07)',
-    badge: 'AWARD',
   },
 ] as const;
 

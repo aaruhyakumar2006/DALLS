@@ -7,6 +7,7 @@ import { ChevronDown, ArrowRight } from 'lucide-react';
 const NAV_LINKS = [
   { label: 'Work',        href: '#work',        chevron: false },
   { label: 'About',       href: '#about',       chevron: false },
+  { label: 'Services',    href: '#services',    chevron: false },
   { label: 'Experience',  href: '#experience',  chevron: false },
   { label: 'Credentials', href: '#credentials', chevron: false },
   { label: 'Contact',     href: '#contact',     chevron: false },

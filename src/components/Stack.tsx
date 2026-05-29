@@ -355,7 +355,7 @@ export function Stack() {
           {[
             { target: 1, label: 'Years' },
             { target: 5, label: 'Projects' },
-            { target: 8, label: 'Technologies' },
+            { target: 24, label: 'Technologies' },
           ].map((stat, idx) => (
             <div key={idx} style={{ textAlign: 'center' }}>
               <div
