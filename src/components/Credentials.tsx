@@ -444,7 +444,7 @@ export function Credentials() {
                 animate={resumeInView ? { opacity: 1 } : {}}
                 transition={{ delay: 0.35, duration: 0.5 }}
               >
-                Resume · PDF · 2025
+                Resume · DOCX · 2025
               </motion.span>
 
               <div className="overflow-hidden">
@@ -501,7 +501,7 @@ export function Credentials() {
               animate={resumeInView ? { opacity: 1, x: 0 } : {}}
               transition={{ delay: 0.5, duration: 0.6, ease: EASE }}
             >
-              <MagneticBtn href="/resume/aaruhya_kumar_resume.pdf" />
+              <MagneticBtn href="/aaruhya_kumar_resume.docx" />
             </motion.div>
           </div>
 
