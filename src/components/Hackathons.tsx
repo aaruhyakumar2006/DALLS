@@ -2,7 +2,7 @@
 
 import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
-import { Trophy, Medal } from 'lucide-react';
+import { Trophy, Medal, Zap } from 'lucide-react';
 
 const EASE = [0.22, 1, 0.36, 1] as const;
 
