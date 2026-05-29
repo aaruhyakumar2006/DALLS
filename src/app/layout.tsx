@@ -45,10 +45,10 @@ export const metadata: Metadata = {
 
   icons: {
     icon: [
-      { url: '/logo/logo_white.png', type: 'image/png' },
+      { url: '/logo/logo_white_horizontal.png', type: 'image/png' },
     ],
-    apple: '/logo/logo_white.png',
-    shortcut: '/logo/logo_white.png',
+    apple: '/logo/logo_white_horizontal.png',
+    shortcut: '/logo/logo_white_horizontal.png',
   },
 
   openGraph: {

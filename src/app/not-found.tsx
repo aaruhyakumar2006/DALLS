@@ -159,7 +159,7 @@ export default function NotFound() {
         {/* Logo */}
         <Link href="/" aria-label="DALLS">
           <Image
-            src="/logo/logo_white.png"
+            src="/logo/logo_white_horizontal.png"
             alt="DALLS"
             width={110}
             height={28}
